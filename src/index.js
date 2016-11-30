@@ -1,7 +1,17 @@
-require('./foo.css');
-var css = require('./index.css');
-import {f,g} from './another.es6'
+import React, { Component } from 'react';
+import ReactDOM from "react-dom"
 
-console.log('coffe output', a.foo);
-console.log(css);
-console.log(f);
+class App extends Component {
+
+ render() {
+   return (
+     <div>
+      Ciao Diomede!
+     </div>
+   )
+ }
+}
+
+ReactDOM.render(<App/>, document.getElementById('app'));
+
+
