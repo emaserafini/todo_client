@@ -1,0 +1,8 @@
+a {
+  color: white;
+}
+
+.item {
+  color: black;
+  background: url("./test.jpg");
+}
